@@ -1,0 +1,11 @@
+{
+  "updatedAt": null,
+  "placeRating": 4.9,
+  "reviewCount": 300,
+  "googleMapsUri": "https://www.google.com/maps/search/?api=1&query=Date+el+Gusto+Fortin+Mercedes+138+Sierra+de+la+Ventana",
+  "reviews": [
+    { "author": "Cucu P.", "rating": 5, "text": "Empanadas exquisitas, sequitas y crocantes.", "relativeTime": null },
+    { "author": "Florencia A.", "rating": 5, "text": "Excelentes los raviolones.", "relativeTime": null },
+    { "author": "Karina R.", "rating": 5, "text": "La comida excelente.", "relativeTime": null }
+  ]
+}
