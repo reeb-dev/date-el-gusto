@@ -21,7 +21,7 @@ const search = await searchResponse.json();
 const placeId = search.places?.[0]?.id;
 if (!placeId) throw new Error("Google no encontró Date el Gusto");
 
-const detailResponse = await fetch(`https://places.googleapis.com/v1/places/${encodeURIComponent(placeId)}`, {
+const detailResponse = await fetch(`https://places.googleapis.com/v1/places/${encodeURIComponent(placeId)}?languageCode=es`, {
   headers: {
     "X-Goog-Api-Key": apiKey,
     "X-Goog-FieldMask": "id,rating,userRatingCount,reviews,googleMapsUri"
